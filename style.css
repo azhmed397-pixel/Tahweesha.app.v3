@@ -146,8 +146,8 @@ canvas{width:100%;display:block}
 
 /* ===== v3.2 — حركات وانتقالات (ستايل آبل) ===== */
 .app{padding-bottom:calc(150px + env(safe-area-inset-bottom))}
-.tabs{left:0;right:0;margin:0 auto;width:calc(100% - 24px);max-width:560px;bottom:calc(10px + env(safe-area-inset-bottom));border:1px solid rgba(255,255,255,.28);border-radius:28px;padding:6px;background:color-mix(in srgb,var(--card) 74%,transparent);-webkit-backdrop-filter:saturate(1.8) blur(22px);backdrop-filter:saturate(1.8) blur(22px);box-shadow:0 14px 36px rgba(0,0,0,.18)}
-.tabs .in{position:relative;padding:0;max-width:none}
+nav.tabs{left:0;right:0;margin:0 auto;width:calc(100% - 24px);max-width:560px;bottom:calc(10px + env(safe-area-inset-bottom));border:1px solid rgba(255,255,255,.28);border-radius:28px;padding:6px;background:color-mix(in srgb,var(--card) 74%,transparent);-webkit-backdrop-filter:saturate(1.8) blur(22px);backdrop-filter:saturate(1.8) blur(22px);box-shadow:0 14px 36px rgba(0,0,0,.18)}
+nav.tabs .in{position:relative;padding:0;max-width:none}
 .tabs button{position:relative;z-index:1;transition:transform .35s cubic-bezier(.3,1.5,.5,1),color .3s}
 .tabs button[aria-selected=true]{background:transparent}
 .tabs button:active{transform:scale(.92)}
